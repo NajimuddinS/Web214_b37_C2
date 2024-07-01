@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+.logo{
+    color: red;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.navbar{
+
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+    display: flexbox;
+}
+
+.navlabel{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding: 30px;
+    /* padding-left: 60px; */
+
+}
+
+.icons{
+    height: 20px;
+    padding-left: 15px;
+}
+.blank{
+    width: 350px;
+    display: inline-flex;
+}
+.blank1{
+    width: 390px;
+    height: 40px;
+    display: inline-flex;
+}
+
+.option{
+  padding: 12px 20px;
+  margin: 10px ;
+  border: 1px solid #6d6c6c;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+  background-color: rgb(243, 243, 243);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  color: #6d6c6c;
+  font-style: normal;
+}
+
+.op{
+    text-align: right;
+    display: inline;
+    padding-left: 900px;
+}
+
+.products{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 300px;
+    margin-left: 30px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.P_search{
+  padding: 12px 20px;
+  margin: 10px ;
+  border: 1px solid #b4b4b4;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+  background-color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  color: #6d6c6c;
+  font-style: normal;
+}
+
+.cloths{
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.dress{
+    height: 450px;
+    padding: 20px;
+}
+
+.blog{
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(214, 214, 214, 0.3) 0px 1px 3px -1px;
+    width: 425px;
+    border-radius: 15px;
+    margin-left: 140px ;
+    display: inline-block;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #d0d0d0;
+    font-family: Raleway, sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    color: rgb(4, 4, 4);
+}
+

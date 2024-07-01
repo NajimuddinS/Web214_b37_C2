@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid.</title>
+    <style>
+        .checkbox-wrapper-46 input[type="checkbox"] {
+          display: none;
+          visibility: hidden;
+        }
+      
+        .checkbox-wrapper-46 .cbx {
+          margin: auto;
+          -webkit-user-select: none;
+          user-select: none;
+          cursor: pointer;
+        }
+        .checkbox-wrapper-46 .cbx span {
+          display: inline-block;
+          vertical-align: middle;
+          transform: translate3d(0, 0, 0);
+        }
+        .checkbox-wrapper-46 .cbx span:first-child {
+          position: relative;
+          width: 18px;
+          height: 18px;
+          border-radius: 3px;
+          transform: scale(1);
+          vertical-align: middle;
+          border: 2px solid #9098A9;
+          transition: all 0.2s ease;
+        }
+        .checkbox-wrapper-46 .cbx span:first-child svg {
+          position: absolute;
+          top: 3px;
+          left: 2px;
+          fill: none;
+          stroke: #FFFFFF;
+          stroke-width: 2;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-dasharray: 16px;
+          stroke-dashoffset: 16px;
+          transition: all 0.3s ease;
+          transition-delay: 0.1s;
+          transform: translate3d(0, 0, 0);
+        }
+        .checkbox-wrapper-46 .cbx span:first-child:before {
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: #506EEC;
+          display: block;
+          transform: scale(0);
+          opacity: 1;
+          border-radius: 50%;
+        }
+        .checkbox-wrapper-46 .cbx span:last-child {
+          padding-left: 10px;
+        }
+        .checkbox-wrapper-46 .cbx:hover span:first-child {
+          border-color: #506EEC;
+        }
+      
+        .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+          background: #506EEC;
+          border-color: #506EEC;
+          animation: wave-46 0.4s ease;
+        }
+        .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+          stroke-dashoffset: 0;
+        }
+        .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+          transform: scale(3.5);
+          opacity: 0;
+          transition: all 0.6s ease;
+        }
+      
+        @keyframes wave-46 {
+          50% {
+            transform: scale(0.9);
+          }
+        }
+      </style>
+      
+
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <label for="" class="logo">Grid.</label>
+            <label for="" class="navlabel">SUMMER'24<sup style="color: red;">NEW</sup></label>
+            <label for="" class="navlabel">TOPWEAR</label>
+            <label for="" class="navlabel">BOTTOMWEAR</label>
+            <label for="" class="navlabel">SHOES AND ACCESSORIES</label>
+            <label for="" class="navlabel">RESTOCKED</label>
+            <label for="" class="navlabel">THEMES</label>
+            <img class="icons" src="./search.svg" alt="">
+            <img class="icons" src="./user.svg" alt="">
+            <img class="icons" src="./heart.svg" alt="">
+            <img class="icons" src="./bag.svg" alt="">
+        </div>
+        <div>
+            <img src="./banner.webp" alt="">
+        </div><br><br><br>
+    <div><hr style="color: rgb(255, 251, 251);opacity: 20%;">
+        <hr style="color: rgb(255, 251, 251);opacity: 20%;"></div><br>
+    <div class="blank"></div>
+    <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(151, 151, 151);font-size: 15px;">Home/ The Souled Store / Restocked Womenswear</label>
+    <br>
+    <br>
+    <div class="blank"></div>
+    <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(105, 105, 105);font-size: 17px;">Restocked Womenswear - <span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(141, 141, 141);font-size: 17px;">43 items</span></label>
+    <div class="op">
+    <select id="pet-select" class="option">
+        <option value="">Select Sorting Option</option>
+        <option value="Low">Price Low to High</option>
+        <option value="High">Price High to Low</option>
+    </select></div>
+    <div class="products">
+        <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(37, 37, 37);font-size: 15px;padding-left: 12px;">PRODUCTS</label>
+        <br>
+        <input class="P_search" type="text" name="search" id="" value="Search for Products">
+        <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-46" type="checkbox" />
+            <label class="cbx" for="cbx-46"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Boyfriend Shirts</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-47" type="checkbox" />
+            <label class="cbx" for="cbx-47"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Bralette</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-48" type="checkbox" />
+            <label class="cbx" for="cbx-48"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Cargo Jeans</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-49" type="checkbox" />
+            <label class="cbx" for="cbx-49"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Cargo Joggers</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-50" type="checkbox" />
+            <label class="cbx" for="cbx-50"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Cropped Tops</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-51" type="checkbox" />
+            <label class="cbx" for="cbx-51"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Denim Jackets</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-52" type="checkbox" />
+            <label class="cbx" for="cbx-52"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Jeans</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-53" type="checkbox" />
+            <label class="cbx" for="cbx-53"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Joggers </span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-54" type="checkbox" />
+            <label class="cbx" for="cbx-54"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Oversized Cropped T-Shirts</span>
+            </label>
+          </div><br>
+          <div class="checkbox-wrapper-46">
+            <input class="inp-cbx" id="cbx-55" type="checkbox" />
+            <label class="cbx" for="cbx-55"><span>
+              <svg width="12px" height="10px" viewbox="0 0 12 10">
+                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+              </svg></span><span style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(118, 118, 118);font-size: 15px;padding-left: 12px;">Women Oversized Shirt Dresses</span>
+            </label>
+          </div>
+    </div>
+    <div class="cloths">
+        <div>
+            <img class="dress" src="./dress1.webp" alt="">
+            <img class="dress" src="./dress2.webp" alt="">
+            <img class="dress" src="./dress3.webp" alt="">
+            <img class="dress" src="./dress4.webp" alt="">
+        </div>
+    </div><br>
+    <br>
+    <h1 style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(4, 4, 4);font-size: 30px;padding-left: 30px;">Fresh From the Blog → </h1>
+    <br><br>
+    <div class="blog">
+        <img style="border-radius: 15px;" src="./blog1.webp" alt=""><br><br>
+        <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;">Inspiration | Home and Living</label><br>
+        <h3 style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(19, 19, 19);padding-left: 30px;padding-top: 20px;">Etsy’s guide for hosting in style</h3>
+        <br><p style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;padding-top: 20px;padding-bottom: 20px;padding-right: 20px;">Eating in is the new eating out. Here’s what you need to host anything, whether it's the ultimate dinner party, a cosy brunch, or afternoon tea.</p>
+    </div>
+    <div class="blog">
+        <img style="border-radius: 15px;" src="./blog2.webp" alt=""><br><br>
+        <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;">Inspiration | Home and Living</label><br>
+        <h3 style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(19, 19, 19);padding-left: 30px;padding-top: 20px;">Etsy’s guide for hosting in style</h3>
+        <br><p style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;padding-top: 20px;padding-bottom: 20px;padding-right: 20px;">Eating in is the new eating out. Here’s what you need to host anything, whether it's the ultimate dinner party, a cosy brunch, or afternoon tea.</p>
+    </div>
+    <div class="blog">
+        <img style="border-radius: 15px;" src="./blog3.webp" alt=""><br><br>
+        <label for="" style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;">Inspiration | Home and Living</label><br>
+        <h3 style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(19, 19, 19);padding-left: 30px;padding-top: 20px;">Etsy’s guide for hosting in style</h3>
+        <br><p style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(156, 156, 156);font-size: 15px;padding-left: 30px;padding-top: 20px;padding-bottom: 20px;padding-right: 20px;">Eating in is the new eating out. Here’s what you need to host anything, whether it's the ultimate dinner party, a cosy brunch, or afternoon tea.</p>
+    </div>
+    <br>
+    <div><BR></BR>
+        <h1 style="display:inline-flex;font-family: Raleway, sans-serif;font-optical-sizing: auto;font-weight:bold;font-style: normal;color: rgb(4, 4, 4);font-size: 30px;padding-left: 30px;">CONTACT US</h1>
+    </div>
+    
+    <footer>
+        <div style="text-align: center;" class="foot">
+            ©The Souled Store 2024-25
+        </div>
+    </footer>
+
+    </nav>
+</body>
+</html>
+
+
+
+
+  
+ 
